@@ -7,12 +7,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
-namespace klProject
+namespace aldoProject
 {
     public partial class FormLogin : Form
     {
-
+       
         private bool isDragging = false;
         private Point lastMousePosition;
         public FormLogin()
@@ -62,6 +63,21 @@ namespace klProject
         }
 
         private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
         {
 
         }
