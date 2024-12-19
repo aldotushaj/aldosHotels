@@ -81,5 +81,18 @@ namespace aldoProject
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (textBox1.Text == "" || textBox2.Text == "")
+            {
+                MessageBox.Show("Please enter username and password correctly");
+            } else
+            {
+                this.Hide();
+                Dashboard d = new Dashboard(textBox1.Text);
+                d.Show();
+            }
+        }
     }
 }
