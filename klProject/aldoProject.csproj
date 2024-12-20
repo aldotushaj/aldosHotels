@@ -7,7 +7,7 @@
     <ProjectGuid>{20F64902-D6A0-446F-BD25-E574424DC908}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>klProject</RootNamespace>
-    <AssemblyName>klProject</AssemblyName>
+    <AssemblyName>aldoProject</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
